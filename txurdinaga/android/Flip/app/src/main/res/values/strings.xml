@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Flip</string>
+    <string name="txtHor">Numero de elementos horizontales: </string>
+    <string name="txtVer">Numero de elementos verticales: </string>
+    <string name="txtTramas">Numero de tramas: </string>
+    <string name="rbColores">Colores</string>
+    <string name="rbNumeros">Numeros</string>
+    <string name="cbVibracion">Vibracion</string>
+    <string name="cbSonido">Sonido</string>
+    <string name="btnJugar">Jugar</string>
+    <string name="m_jugador">Jugador</string>
+    <string name="m_howto">Ayuda</string>
+    <string name="m_about">Acerca de</string>
+
+</resources>

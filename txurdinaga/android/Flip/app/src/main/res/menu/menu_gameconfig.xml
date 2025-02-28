@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/mJugador"
+          android:title="@string/m_jugador"
+          android:icon="@mipmap/ic_launcher"
+        />
+
+    <item android:id="@+id/mHowto"
+        android:title="@string/m_howto"
+        android:icon="@mipmap/ic_launcher"
+        />
+
+    <item android:id="@+id/mAbout"
+        android:title="@string/m_about"
+        android:icon="@mipmap/ic_launcher"
+        />
+
+
+</menu>
