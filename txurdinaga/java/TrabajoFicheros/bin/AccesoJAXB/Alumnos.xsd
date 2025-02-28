@@ -1,19 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://www.example.org/Alumnos/" targetNamespace="http://www.example.org/Alumnos/">
-    <element name="Alumnos">
-    	<complexType>
-            <choice minOccurs="0" maxOccurs="unbounded">
-    			<element name="Alumno">
-    				<complexType>
-    					<sequence>
-    						<element name="Nombre" type="string"></element>
-    						<element name="Apellido" type="string"></element>
-    						<element name="Grupo" type="string"></element>
-    					</sequence>
-    					<attribute name="AnoNacimiento" type="string"></attribute>
-    				</complexType>
-    			</element>
-    		</choice>
-    	</complexType>
-    </element>
-</schema>
