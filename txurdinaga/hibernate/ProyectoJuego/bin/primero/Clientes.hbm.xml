@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 22-dic-2016 14:53:06 by Hibernate Tools 5.2.0.Beta1 -->
+<hibernate-mapping>
+    <class name="primero.Clientes" table="clientes" catalog="juego" optimistic-lock="version">
+        <id name="id" type="int">
+            <column name="Id" />
+            <generator class="assigned" />
+        </id>
+        <property name="nombre" type="string">
+            <column name="Nombre" length="20" not-null="true" />
+        </property>
+        <property name="direccion" type="string">
+            <column name="Direccion" length="30" not-null="true" />
+        </property>
+        <property name="poblacion" type="string">
+            <column name="Poblacion" length="20" not-null="true" />
+        </property>
+        <property name="telefono" type="int">
+            <column name="Telefono" not-null="true" />
+        </property>
+        <property name="nif" type="string">
+            <column name="NIF" length="30" not-null="true" />
+        </property>
+        <set name="ventases" table="ventas" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="IdCliente" />
+            </key>
+            <one-to-many class="primero.Ventas" />
+        </set>
+    </class>
+</hibernate-mapping>

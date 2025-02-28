@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://www.example.org/Lugares/" targetNamespace="http://www.example.org/Lugares/">
+    <element name="Lugares">
+    	<complexType>
+            <choice>
+            	<element name="Sitio" minOccurs="0"
+            		maxOccurs="unbounded">
+            		<complexType>
+            			<sequence>
+            				<element name="Parking" type="string"></element>
+            				<element name="Duchas" type="string"></element>
+            				<element name="Hotel" type="string"></element>
+            			</sequence>
+            			<attribute name="nombre" type="string"></attribute>
+            			<attribute name="provincia" type="string"></attribute>
+            		</complexType>
+            	</element>
+
+            </choice>
+
+    	</complexType>
+    </element>
+</schema>

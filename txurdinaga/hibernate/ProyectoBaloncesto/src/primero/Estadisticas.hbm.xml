@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 22-dic-2016 13:41:10 by Hibernate Tools 5.2.0.Beta1 -->
+<hibernate-mapping>
+    <class name="entidades.Estadisticas" table="estadisticas" catalog="baloncesto" optimistic-lock="version">
+        <id name="temporada" type="string">
+            <column name="temporada" length="5" />
+            <generator class="assigned" />
+        </id>
+        <many-to-one name="jugadores" class="entidades.Jugadores" fetch="select">
+            <column name="jugador" not-null="true" />
+        </many-to-one>
+        <property name="puntosPorPartido" type="float">
+            <column name="Puntos_por_partido" precision="12" scale="0" not-null="true" />
+        </property>
+        <property name="asistenciasPorPartido" type="float">
+            <column name="Asistencias_por_partido" precision="12" scale="0" not-null="true" />
+        </property>
+        <property name="taponesPorPartido" type="float">
+            <column name="Tapones_por_partido" precision="12" scale="0" not-null="true" />
+        </property>
+        <property name="rebotesPorPartido" type="float">
+            <column name="Rebotes_por_partido" precision="12" scale="0" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

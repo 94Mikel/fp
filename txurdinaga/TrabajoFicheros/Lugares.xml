@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:Lugares xmlns:tns="http://www.example.org/Lugares/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.example.org/Lugares/ src/AccesoJAXB_ejer/Lugares.xsd ">
+  <Sitio nombre="la salbaje" provincia="bizkaia">
+    <Parking>Si</Parking>
+    <Duchas>Si</Duchas>
+    <Hotel>No</Hotel>
+  </Sitio>
+  <Sitio nombre="atxarte" provincia="bizkaia">
+    <Parking>Si</Parking>
+    <Duchas>No</Duchas>
+    <Hotel>No</Hotel>
+  </Sitio>
+  <Sitio nombre="Pagasarri" provincia="bizkaia">
+    <Parking>Si</Parking>
+    <Duchas>Si</Duchas>
+    <Hotel>No</Hotel>
+  </Sitio>
+  
+</tns:Lugares>

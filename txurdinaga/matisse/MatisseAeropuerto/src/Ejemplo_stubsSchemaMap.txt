@@ -1,0 +1,11 @@
+#
+# Generated with Matisse Schema Definition Language 9.1.9
+# Generation date: Wed Jan 18 09:38:54 2017
+#
+# Mapping of Java classes and indexes to the corresponding database schema objects
+#
+aereo.Compania = aereo.Compania
+aereo.Aeropuerto = aereo.Aeropuerto
+aereo.Vehiculo = aereo.Vehiculo
+aereo.Helicoptero = aereo.Helicoptero
+aereo.Avion = aereo.Avion

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<discos>
+    <disco Año_Lanzamiento="2016">
+        <Grupo>Justin Quiles</Grupo>
+        <Titulo>Otra Copa</Titulo>
+        <Genero>Reggaeton</Genero>
+        <Duracion>05:40</Duracion>
+    </disco>
+    <disco Año_Lanzamiento="2010">
+        <Grupo>Don Omar</Grupo>
+        <Titulo>Danza Kuduro</Titulo>
+        <Genero>Reggaeton</Genero>
+        <Duracion>03:40</Duracion>
+    </disco>
+    <disco Año_Lanzamiento="2012">
+        <Grupo>Sean Paul</Grupo>
+        <Titulo>Trinity</Titulo>
+        <Genero>Rap</Genero>
+        <Duracion>04:02</Duracion>
+    </disco>
+    <disco Año_Lanzamiento="2015">
+        <Grupo>Rihanna ft. Drake</Grupo>
+        <Titulo>Work</Titulo>
+        <Genero>Pop</Genero>
+        <Duracion>03:55</Duracion>
+    </disco>
+</discos>

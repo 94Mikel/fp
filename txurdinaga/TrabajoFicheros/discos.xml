@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<discos>
+    <disco estilos="Punk">
+        <Titulo>London Calling</Titulo>
+        <Grupo componentes="4">The clash</Grupo>
+    </disco>
+    <disco estilos="Reggaeton">
+        <Titulo>Dimelo papi</Titulo>
+        <Grupo componentes="5">Arcangel</Grupo>
+    </disco>
+    <disco estilos="Rap">
+        <Titulo>Ocho millas</Titulo>
+        <Grupo componentes="1">Eminem</Grupo>
+    </disco>
+    <Libro Publicado_en="1984">
+        <Titulo>No Somos Nada</Titulo>
+        <Autor>La Polla Records</Autor>
+    </Libro>
+    <Libro Publicado_en="1984">
+        <Titulo>No Somos Nada</Titulo>
+        <Autor>La Polla Records</Autor>
+    </Libro>
+    <Libro Publicado_en="1984">
+        <Titulo>No Somos Nada</Titulo>
+        <Autor>La Polla Records</Autor>
+    </Libro>
+    <Libro Publicado_en="1984">
+        <Titulo>No Somos Nada</Titulo>
+        <Autor>La Polla Records</Autor>
+    </Libro>
+    <Libro Publicado_en="1984">
+        <Titulo>No Somos Nada</Titulo>
+        <Autor>La Polla Records</Autor>
+    </Libro>
+    <Libro Publicado_en="1984">
+        <Titulo>No Somos Nada</Titulo>
+        <Autor>La Polla Records</Autor>
+    </Libro>
+</discos>

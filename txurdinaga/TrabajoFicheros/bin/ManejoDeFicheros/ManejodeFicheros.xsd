@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://www.example.org/ManejodeFicheros/" targetNamespace="http://www.example.org/ManejodeFicheros/">
+    
+
+
+    <element name="Libros">
+    	<complexType>
+            <choice minOccurs="0" maxOccurs="unbounded">
+    			<element name="Libro">
+    				<complexType>
+    					<sequence>
+    						<element name="Autor" type="string"></element>
+    						<element name="ISBN" type="string"></element>
+    						<element name="Numerodeejemplares" type="string"></element>
+    						<element name="Editorial" type="string"></element>
+    						<element name="Numerodepaginas" type="string"></element>
+    						<element name="Añodeedicion" type="string"></element>
+    					</sequence>
+    					<attribute name="Titulo" type="string"></attribute>
+    				</complexType>
+    			</element>
+    		</choice>
+    	</complexType>
+    </element>
+</schema>

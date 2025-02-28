@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:Libros xmlns:ns2="http://www.example.org/ManejodeFicheros/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ManejodeFicheros.xsd">
+    <Libro Titulo="La Prueba">
+        <Autor>Gari</Autor>
+        <ISBN>7854120</ISBN>
+        <Numerodeejemplares>200</Numerodeejemplares>
+        <Editorial>abc</Editorial>
+        <Numerodepaginas>350</Numerodepaginas>
+        <Añodeedicion>2016</Añodeedicion>
+    </Libro>
+    <Libro Titulo="Luces de bohemia">
+        <Autor>Camilo Jose Cela</Autor>
+        <ISBN>123456789</ISBN>
+        <Numerodeejemplares>100</Numerodeejemplares>
+        <Editorial>CasaLoca</Editorial>
+        <Numerodepaginas>200</Numerodepaginas>
+        <Añodeedicion>1984</Añodeedicion>
+    </Libro>
+    <Libro Titulo="La Factoria">
+        <Autor>Camilo Jose Cela</Autor>
+        <ISBN>1234</ISBN>
+        <Numerodeejemplares>100</Numerodeejemplares>
+        <Editorial>CasaLoca</Editorial>
+        <Numerodepaginas>200</Numerodepaginas>
+        <Añodeedicion>1984</Añodeedicion>
+    </Libro>
+</ns2:Libros>

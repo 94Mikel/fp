@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<libros>
+    <Libro publicado_en="1840">
+        <Titulo>El Capote</Titulo>
+        <Autor>Nikolai Godol</Autor>
+    </Libro>
+    <Libro publicado_en="2008">
+        <Titulo>El Sanador de caballos</Titulo>
+        <Autor>Gonzalo Giner</Autor>
+    </Libro>
+    <Libro publicado_en="1981">
+        <Titulo>El Nombre de la Rosa</Titulo>
+        <Autor>Umberto Eco</Autor>
+    </Libro>
+    <Libro Publicado_en="1984">
+        <Titulo>El Resplandor</Titulo>
+        <Autor>Stephen King</Autor>
+    </Libro>
+  </libros>

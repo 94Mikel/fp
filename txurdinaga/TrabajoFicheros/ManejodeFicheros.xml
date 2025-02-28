@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:Libros xmlns:tns="http://www.example.org/ManejodeFicheros/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.example.org/ManejodeFicheros/ ManejodeFicheros.xsd ">
+  <Libro Titulo="La Prueba">
+    <Autor>Gari</Autor>
+    <ISBN>7854120</ISBN>
+    <Numerodeejemplares>200</Numerodeejemplares>
+    <Editorial>abc</Editorial>
+    <Numerodepaginas>350</Numerodepaginas>
+    <Añodeedicion>2016</Añodeedicion>
+  </Libro>
+  
+</tns:Libros>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:Alumnos xmlns:ns2="http://www.example.org/Alumnos/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Alumnos.xsd">
+    <Alumno AnoNacimiento="2003">
+        <Nombre>dd</Nombre>
+        <Apellido>ddddd</Apellido>
+        <Grupo>Grudddddpo</Grupo>
+    </Alumno>
+    <Alumno AnoNacimiento="1975">
+        <Nombre>Pepe</Nombre>
+        <Apellido>Gotera</Apellido>
+        <Grupo>2ºdw3</Grupo>
+    </Alumno>
+</ns2:Alumnos>
